@@ -1,6 +1,7 @@
 # include Make.user here
 # edit to match your environment
-include Make.user
+include Make.user.linux 
+
 
 # the above included Makefile should supply:
 # BLASINCLUDE, BLASLIBINC, BLASLDFLAGS, BLASCFLAGS
